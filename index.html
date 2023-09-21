@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <!-- Tambahkan kode kalian di sini -->
+  <header class="header">
+    <nav class="nav">
+      <img src="logo.png" alt="GeniusMind" class="nav__logo" id="logo" designer="Your Name" data-version-number="1.0" />
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Features</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Operations</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Testimonials</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <h1>
+        When
+        <span class="highlight">health </span>
+        meets
+        <span class="highlight">wellness</span>
+      </h1>
+      <p id="description">the ultimate platform for interactive and engaging health services!, making wellness an
+        enjoyable
+        and immersive experience.</p>
+      <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      <img
+        src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=822&q=80"
+        class="header__img" alt="Health app" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Features</h2>
+      <h3 class="section__header">
+        Explore the powerful features of our educational app.
+      </h3>
+    </div>
+
+    <div class="features">
+      <img
+        src="https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        data-src="img/digital.jpg" alt="feature 1" class="features__img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Interactive Health Services</h5>
+        <p>
+          Engage in immersive and interactive health services that make wellness an enjoyable and effective experience.
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-trending-up"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Personalized Health Plan</h5>
+        <p>
+          Track your health progress and receive personalized recommendations to enhance your wellness journey.
+        </p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1599008633840-052c7f756385?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        data-src="img/grow.jpg" alt="feature 2" class="features__img" />
+
+      <img
+        src="https://images.unsplash.com/photo-1560421683-6856ea585c78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80"
+        data-src="img/card.jpg" alt="Credit card" class="features__img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-credit-card"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Affordable Health Services</h5>
+        <p>
+          Access high-quality health services at affordable prices to make wellness accessible for everyone.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Operations</h2>
+      <h3 class="section__header">
+        Everything as simple as possible, but no simpler.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Find Health Services
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Easy Payments
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Interactive Health Lessons
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Find the perfect health service or topic that matches your interests and explore a vast collection of health
+          resources.
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Find the perfect health service or topic that matches your interests and explore a vast collection of health
+          resources.
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Engage with interactive health lessons, videos, and quizzes to enhance your understanding and improve your
+          health.
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Not sure yet?</h2>
+      <h3 class="section__header">
+        What our users say about our health app.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">"I've never felt better since using this app. The personalized health plan and
+            interactive lessons have transformed the way I approach my wellness journey."
+          </h5>
+          <blockquote class="testimonial__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Accusantium quas quisquam non? Quas voluptate nulla minima
+            deleniti optio ullam nesciunt, numquam corporis et asperiores
+            laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+            id alias reiciendis, perferendis facere pariatur dolore veniam
+            autem esse non voluptatem saepe provident nihil molestiae.
+          </blockquote>
+          <address class="testimonial__author">
+            <img
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
+              alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Aarav Lynn</h6>
+            <p class="testimonial__location">San Francisco, USA</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">"The supportive community in this health app is amazing! I've connected with
+            like-minded individuals and gained valuable insights from health professionals."
+          </h5>
+          <blockquote class="testimonial__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla
+            minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit
+            blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non
+            voluptatem saepe provident nihil molestiae.
+          </blockquote>
+          <address class="testimonial__author">
+            <img
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
+              alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Miyah Miles</h6>
+            <p class="testimonial__location">London, UK</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">"This health app is the best place for learning about my health and wellness.
+            The interactive lessons and personalized health plan have helped me make positive changes in my life."
+          </h5>
+          <blockquote class="testimonial__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla
+            minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit
+            blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non
+            voluptatem saepe provident nihil molestiae.
+          </blockquote>
+          <address class="testimonial__author">
+            <img
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
+              alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Francisco Gomes</h6>
+            <p class="testimonial__location">Lisbon, Portugal</p>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <div class="section">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Signup now</h2>
+      <h3 class="section__header">
+        Make your account for free no need credit card
+      </h3>
+    </div>
+    <form id="my-form">
+      <input type="text" id="name" placeholder="Name">
+      <input type="text" id="city" placeholder="City">
+      <input type="email" id="email" placeholder="Email">
+      <input type="number" id="zip-code" placeholder="Zip Code">
+      <label class="label-checkbox" for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini
+        adalah benar dan telah
+        sesuai</label>
+      <input type="checkbox" id="status" class="checkbox">
+      <button type="submit" id="submit-form">Submit</button>
+      <div id="warning"></div>
+    </form>
+  </div>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        The best day to start your wellness journey was yesterday. The second best day is today!
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Join our health community today!</button>
+  </section>
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">About</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Pricing</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Terms of Use</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Privacy Policy</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Careers</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <img src="logo.png" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; Copyright by
+      <a class="footer__link twitter-link" target="_blank">Raja Saputera</a>.
+      made with ?? for <a class="footer__link twitter-link" target="_blank" id="link"
+        href="https://skilvul.com">Skilvul</a>.
+    </p>
+  </footer>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
